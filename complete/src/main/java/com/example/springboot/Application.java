@@ -2,6 +2,7 @@ package com.example.springboot;
 
 import java.util.Arrays;
 
+import com.example.servcies.EvenOrOddService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -29,5 +30,10 @@ public class Application {
 
 		};
 	}
+
+	/*@Bean
+	public EvenOrOddService getNumber(Integer num){
+		return;
+	}*/
 
 }
